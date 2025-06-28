@@ -1,0 +1,13 @@
+
+Spack deployed by HPC-Tech C-DAC Pune
+
+
+For better command line support, copy and paste the folowing,
+ which will source the spack setup script:
+
+source /home/apps/spack/share/spack/setup-env.sh
+
+Traceback (most recent call last):
+  File "/scratch/arnavk.scee.iitmandi/mednca/train.py", line 9, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'

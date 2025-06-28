@@ -1,0 +1,23 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"python/3.10"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "python/3.10"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Traceback (most recent call last):
+  File "/scratch/arnavk.scee.iitmandi/mednca/train.py", line 5, in <module>
+    from models.mednca_highres import MedNCAHighRes
+  File "/scratch/arnavk.scee.iitmandi/mednca/models/mednca_highres.py", line 4, in <module>
+    from models.backbone_nca import BackboneNCA
+  File "/scratch/arnavk.scee.iitmandi/mednca/models/backbone_nca.py", line 4, in <module>
+    from models.vig_block import ViGBlock
+  File "/scratch/arnavk.scee.iitmandi/mednca/models/vig_block.py", line 1
+    aimport torch.nn as nn
+            ^
+SyntaxError: invalid syntax

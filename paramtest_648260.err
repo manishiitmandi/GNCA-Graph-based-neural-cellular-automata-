@@ -1,0 +1,29 @@
+
+Spack deployed by HPC-Tech C-DAC Pune
+
+
+For better command line support, copy and paste the folowing,
+ which will source the spack setup script:
+
+source /home/apps/spack/share/spack/setup-env.sh
+
+
+Spack deployed by HPC-Tech C-DAC Pune
+
+
+For better command line support, copy and paste the folowing,
+ which will source the spack setup script:
+
+source /home/apps/spack/share/spack/setup-env.sh
+
+Traceback (most recent call last):
+  File "/scratch/arnavk.scee.iitmandi/mednca/train.py", line 5, in <module>
+    from models.mednca_highres import MedNCAHighRes
+  File "/scratch/arnavk.scee.iitmandi/mednca/models/mednca_highres.py", line 4, in <module>
+    from models.backbone_nca import BackboneNCA
+  File "/scratch/arnavk.scee.iitmandi/mednca/models/backbone_nca.py", line 4, in <module>
+    from models.vig_block import ViGBlock
+  File "/scratch/arnavk.scee.iitmandi/mednca/models/vig_block.py", line 1
+    aimport torch.nn as nn
+            ^
+SyntaxError: invalid syntax

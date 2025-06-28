@@ -1,0 +1,22 @@
+
+Spack deployed by HPC-Tech C-DAC Pune
+
+
+For better command line support, copy and paste the folowing,
+ which will source the spack setup script:
+
+source /home/apps/spack/share/spack/setup-env.sh
+
+
+Spack deployed by HPC-Tech C-DAC Pune
+
+
+For better command line support, copy and paste the folowing,
+ which will source the spack setup script:
+
+source /home/apps/spack/share/spack/setup-env.sh
+
+Traceback (most recent call last):
+  File "/scratch/arnavk.scee.iitmandi/mednca/train.py", line 6, in <module>
+    from datasets.isic_dataset import ISIC2018Dataset
+ModuleNotFoundError: No module named 'datasets'
