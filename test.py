@@ -24,8 +24,8 @@ transform = transforms.Compose([
 
 # DATASET
 test_dataset = ISIC2018Dataset(
-    image_dir="/scratch/teaching/mednca_scratch_arnavk/data/ISIC2018_Task1-2_Test_Input",
-    mask_dir="/scratch/teaching/mednca_scratch_arnavk/data/ISIC2018_Task1_Test_GroundTruth",
+    image_dir="/scratch/arnavk.scee.iitmandi/dataset_new/ISIC2018_Task1-2_Test_Input",
+    mask_dir="/scratch/arnavk.scee.iitmandi/dataset_new/ISIC2018_Task1_Test_GroundTruth",
     transform=transform
 )
 test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)

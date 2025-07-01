@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from datasets.isic_dataset import ISIC2018Dataset
 
 test_dataset = ISIC2018Dataset(
-    image_dir="data/ISIC2018_Task1-2_Test_Input",
-    mask_dir="data/ISIC2018_Task1_Test_GroundTruth",
+    image_dir="/scratch/arnavk.scee.iitmandi/dataset_new/ISIC2018_Task1-2_Validation_Input",
+    mask_dir="/scratch/arnavk.scee.iitmandi/dataset_new/ISIC2018_Task1_Validation_GroundTruth",
     transform=transform)
 test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)
 

@@ -52,8 +52,8 @@ transform = transforms.Compose([
 # Dataset and loader with error handling
 try:
     train_dataset = ISIC2018Dataset(
-        image_dir="data/ISIC2018_Task1-2_Training_Input",
-        mask_dir="data/ISIC2018_Task1_Training_GroundTruth",
+        image_dir="/scratch/arnavk.scee.iitmandi/dataset_new/ISIC2018_Task1-2_Training_Input",
+        mask_dir="/scratch/arnavk.scee.iitmandi/dataset_new/ISIC2018_Task1_Training_GroundTruth",
         transform=transform)
     
     train_loader = DataLoader(
