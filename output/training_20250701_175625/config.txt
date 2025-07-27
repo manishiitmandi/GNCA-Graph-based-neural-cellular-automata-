@@ -1,0 +1,11 @@
+batch_size: 2
+epochs: 10
+lr: 0.001
+patch_size: 64
+image_size: 128
+channel_n: 16
+fire_rate: 0.5
+dice_weight: 0.7
+focal_weight: 0.3
+save_checkpoint_every: 5
+log_interval: 10
